@@ -1,0 +1,37 @@
+{
+  "name": "apples",
+  "version": "1.0.0",
+  "description": "WordPress theme development for claraiannotta.com",
+  "scripts": {
+    "start": "npm run css:build && npm run css:watch",
+    "build": "npm run css:build && npm run copy && npm run zip && npm run clean",
+    "css:build": "node-sass --include-path scss --output-style compressed scss/style.scss style.css",
+    "css:watch": "node-sass --include-path scss --output-style compressed scss/style.scss style.css -w",
+    "copy": "cpy '**/*' '!scss/*' '!apples/*' '!*.json' '!.gitignore' '!.travis.yml' '!node_modules/**/*' '!apples.zip' 'apples/' --parents --nodir",
+    "zip": "bestzip apples.zip apples/",
+    "clean": "rimraf apples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/apples.git"
+  },
+  "keywords": [
+    "Wordpress",
+    "theme"
+  ],
+  "author": "Chris Swithinbank <swithinbank@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/delucis/apples/issues"
+  },
+  "homepage": "https://github.com/delucis/apples#readme",
+  "devDependencies": {
+    "bestzip": "^1.1.4",
+    "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
+    "node-sass": "^4.5.3",
+    "rimraf": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
