@@ -7,7 +7,7 @@
     "build": "npm run css:build && npm run copy && npm run zip && npm run clean",
     "css:build": "node-sass --include-path scss --output-style compressed scss/style.scss style.css",
     "css:watch": "node-sass --include-path scss --output-style compressed scss/style.scss style.css -w",
-    "copy": "cpy '**/*' '!scss/*' '!apples/*' '!*.json' '!.gitignore' '!.travis.yml' '!node_modules/**/*' '!apples.zip' 'apples/' --parents --nodir",
+    "copy": "cpy '**/*' '!scss/*' '!apples/*' '!*.json' '!.gitignore' '!.travis.yml' '!README.md' '!node_modules/**/*' '!apples.zip' 'apples/' --parents --nodir",
     "zip": "bestzip apples.zip apples/",
     "clean": "rimraf apples"
   },
