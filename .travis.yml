@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '6'
+install:
+- npm install
+script:
+- npm run build
+deploy:
+  provider: releases
+  api_key:
+    secure: uB7PGANmclZtDOqNOxBx9zOCNhMekqtii2CimcRr4+44lvkQwMzoz71A+N7n9a+nu+bwk5mN1PZ28ArusArk5hh3uDtHYoUPai6tIYeG8fWhF6DnjEs7MkeIHHeADmH0I5M6WNMNm2TPB7o/BKLKrBS5ExmiE8GNoPRLCwPxacL8axWUMrIpEv8/us3veLtPEXAnOQKaR90o7V569rkLqPERtkj5hkljQz5VaucvgvZ9lZpW0OzdP4PJA9OzdrZBjVPg1VVDyFDvcp9ezuydOgrp7/oR12mYl/D3N0KiRbaePxGrXyC5nW1KhU0vrkXH4IzAQiAr13K0IqL5Q491fLU/o1rWf4C2a3LRJv3xHOBoQ291k2lNs7HxTwRuDJ8blW71+IGp0MlcuN07q7Gds6ky2e+2z5nu3EE8bvyAGOolu2wbKhZ8Oy6NgHkiGHQqtkSpFxhlZxuU65PCyUYCzDE5bIeNbm3OViCM4EDMelzo+/CmiR1nqicWrMWqRmAe/+H0Zvr2AZC8zjj4lEYivXOV0avjCzZYps+OUEzxzJJewLeMhDRnYVzD/VzEsrs0SCsbl7x1D/boXukyH2pUbbP7BuPlkC7CZqNeT965BNLapFAh2Rd6PoECrW/U3AM6TTCRRBrcfHUdFfEVPcMzhA3FR3I5wirmUgdG2aQKN8s=
+  file: apples.zip
+  skip_cleanup: true
+  on:
+    repo: delucis/apples
+    tags: true
