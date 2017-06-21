@@ -28,6 +28,15 @@ add_action( 'wp_enqueue_scripts', 'mytheme_dequeue_fonts', 11 );
 
 
 
+/** Enqueue Google Fonts to use Lato across theme */
+function load_fonts() {
+  wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:300italic,300,900');
+  wp_enqueue_style( 'googleFonts');
+}
+add_action('wp_print_styles', 'load_fonts');
+
+
+
 /**
  * Registers our main widget area and the front page widget areas.
  *
