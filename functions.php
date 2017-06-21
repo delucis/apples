@@ -204,11 +204,13 @@ function my_login_logo() { ?>
         body.login div#login h1 a {
             background-image: url(<?php echo get_bloginfo( 'stylesheet_directory' ) ?>/img/ci-login-logo.png);
             background-size: 274px 63px;
-            width: 274px;	
+            width: 274px;
         }
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+
 
 /** Custom text on the WooCommerce order thank you page. */
 function order_received_spam_warning( $text, $order ) {
