@@ -124,12 +124,10 @@ add_post_type_support( 'page', 'excerpt' );
 
 /** Create widget to display post/page featured images */
 function apples_ftrdimg_widget() {
-
-    echo get_the_post_thumbnail($page->ID, 'full', array('class' => 'entry-sidebar-ftrd-img'));
-
+  echo get_the_post_thumbnail($page->ID, 'full', array('class' => 'entry-sidebar-ftrd-img'));
 }
-if ( function_exists('register_sidebar_widget') )
-    register_sidebar_widget(__('The Featured Image'), 'apples_ftrdimg_widget');
+if ( function_exists('wp_register_sidebar_widget') )
+    wp_register_sidebar_widget('apples-featured-image-widget', 'The Featured Image', 'apples_ftrdimg_widget');
 
 // Use website URL for admin log-in logo link
 function wpc_url_login(){
