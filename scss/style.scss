@@ -378,7 +378,8 @@ li.event .event-time {
 .contact-form .clear-form {
 	clear: both; }
 
-.contact-form input[type='text'] {
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
 	width: 80%;
 	font-size: 14px;
 	font-size: 1rem;
@@ -423,14 +424,23 @@ li.event .event-time {
 	margin-left: 4px;
 	font-weight: 300; }
 
-.contact-form input[type='submit'] {
+.contact-form input[type='submit'],
+.contact-form button {
+	background: rgb(211, 211, 211);
+	background-image: linear-gradient(180deg, rgb(244, 244, 244), rgb(230, 230, 230));
 	padding: 12.5px;
 	padding: 0.89285714rem;
 	font-size: 14px;
 	font-size: 1rem;
 	line-height: 1.71429;
 	font-weight: 300;
-	text-transform: lowercase; }
+	text-transform: lowercase;
+	&:hover {
+			background-image: linear-gradient(180deg,rgb(249, 249, 249),rgb(235, 235, 235));
+	}
+}
+
+
 
 
 /* RESUMÉ */
