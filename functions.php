@@ -112,7 +112,7 @@ function my_excerpt($text, $excerpt){
     } else {
             $text = implode(' ', $words);
     }
-    return apply_filters('wp_trim_excerpt', $text, $raw_excerpt);
+    return apply_filters('wp_trim_excerpt', $text, $excerpt);
 }
 
 
