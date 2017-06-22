@@ -107,8 +107,8 @@ strong {
 
 ::-moz-selection,
 ::selection {
-  color: $white;
   background: $clara-blue;
+  color: $white;
 }
 
 .site {
@@ -123,9 +123,9 @@ body.custom-background-white .site {
 }
 
 .entry-header .entry-title {
+  line-height: 1.09091;
   font-size: 22px;
   font-size: 1.57143rem;
-  line-height: 1.09091;
   font-weight: 300;
 }
 
@@ -161,16 +161,16 @@ img.entry-sidebar-ftrd-img {
 }
 
 aside.widget {
-  font-size: 1rem;
   line-height: 1.71429;
+  font-size: 1rem;
 }
 
 .widget-area .widget h3 {
-  font-size: 1.28571rem;
-  font-weight: 300;
-  line-height: 1.33333;
   margin-bottom: 1.71429rem;
   text-transform: lowercase;
+  line-height: 1.33333;
+  font-size: 1.28571rem;
+  font-weight: 300;
 }
 
 .widget-area img {
@@ -178,11 +178,11 @@ aside.widget {
 }
 
 .archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
-  font-size: 1.28571rem;
-  font-weight: 300;
-  line-height: 1.33333;
   margin-bottom: 0;
   text-transform: lowercase;
+  line-height: 1.33333;
+  font-size: 1.28571rem;
+  font-weight: 300;
 }
 
 .archive-meta {
@@ -214,13 +214,13 @@ aside.widget {
 }
 
 .entry-meta {
-  font-size: 9.8px;
-  font-size: .7rem;
-  line-height: 2.4489795;
+  margin-bottom: 0;
   text-transform: uppercase;
+  line-height: 2.4489795;
   letter-spacing: 1.4px;
   letter-spacing: .1rem;
-        margin-bottom: 0;
+  font-size: 9.8px;
+  font-size: .7rem;
 }
 
 
@@ -230,22 +230,22 @@ aside.widget {
 .site-header { }
 
 .site-header h1 {
-  font-size:   24px;
-  font-size:   1.71428571rem;
+  text-transform: uppercase;
   line-height:  24px;
   line-height:  1;
   letter-spacing: .09em;
-  text-transform: uppercase;
+  font-size:   24px;
+  font-size:   1.71428571rem;
 }
 
 h1.site-title a {
-  font-weight: 900;
   border-bottom: 0;
+  font-weight: 900;
 }
 
 h1 span.site-description {
-  font-weight:  300;
   display: none;
+  font-weight:  300;
 }
 
 
@@ -253,18 +253,18 @@ h1 span.site-description {
 // MOBILE MENU
 
 h3.menu-toggle {
-  font-weight: 300;
-  font-size: 14px;
-  font-size: 1rem;
-  line-height: 1.71428571;
-  padding: 11px;
-  padding: .785714rem;
-  text-transform: uppercase;
-  background-color: $white;
-  background-image: none;
   border: 0;
   border-radius: 0;
   box-shadow: 0 0 24px rgba(64, 64, 64, .1);
+  background-color: $white;
+  background-image: none;
+  padding: 11px;
+  padding: .785714rem;
+  text-transform: uppercase;
+  line-height: 1.71428571;
+  font-size: 14px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 h3.menu-toggle:after {
@@ -281,9 +281,9 @@ h3.toggled-on:after {
 }
 
 .menu-toggle.toggled-on {
+  box-shadow: none;
   background-color: $white;
   background-image: none;
-  box-shadow: none;
 }
 
 ul.toggled-on {
@@ -296,13 +296,13 @@ ul.sub-menu {
 
 .main-navigation li {
   display: inline-block;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.71429;
   margin-top: 0;
   padding: .857143rem 0;
-  text-transform: uppercase;
   width: 48%;
+  text-transform: uppercase;
+  line-height: 1.71429;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .main-navigation li.current_page_item > a,
@@ -317,11 +317,11 @@ ul.sub-menu {
 // FOOTER
 
 footer#colophon {
-  border-top: 0;
   margin-top: 0;
-  font-size: .71428583rem;
-  line-height: 2.4;
+  border-top: 0;
   text-transform: lowercase;
+  line-height: 2.4;
+  font-size: .71428583rem;
 }
 
 
@@ -329,19 +329,19 @@ footer#colophon {
 // WORKS LISTS
 
 ul.main-works-list li {
-  list-style: none outside none;
   margin: 0 0 24px;
-  font-size: 1.42857rem;
-  line-height: 1.2;
+  list-style: none outside none;
   text-transform: lowercase;
+  line-height: 1.2;
+  font-size: 1.42857rem;
 }
 
 ul.main-works-list li ul li {
-  list-style: none outside none;
   margin: 0 0 0 2.57143rem;
-  font-size: 1rem;
-  line-height: 1.71428571;
+  list-style: none outside none;
   text-transform: none;
+  line-height: 1.71428571;
+  font-size: 1rem;
 }
 
 ul.main-works-list li a {
@@ -349,11 +349,11 @@ ul.main-works-list li a {
 }
 
 h3.page-list-ext-title {
-  font-weight: 300;
-  font-size: 1.42857rem;
-  line-height: 1.2;
-  text-transform: lowercase;
   margin: 0;
+  text-transform: lowercase;
+  line-height: 1.2;
+  font-size: 1.42857rem;
+  font-weight: 300;
 }
 
 h3.page-list-ext-title a {
@@ -370,9 +370,9 @@ h3.page-list-ext-title a {
 // EVENTS WIDGET FORMATTING
 
 ul.event-list {
-  list-style: none;
   margin: 0 0 24px;
   margin: 0 0 1.7148571rem;
+  list-style: none;
 }
 
 li.event {
@@ -381,20 +381,20 @@ li.event {
 }
 
 li.event .event-date {
-  font-size: 9.8px;
-  font-size: .7rem;
-  line-height: 2.4489795;
+  margin-bottom: 0;
   text-transform: uppercase;
+  line-height: 2.4489795;
   letter-spacing: 1.4px;
   letter-spacing: .1rem;
-        margin-bottom: 0;
+  font-size: 9.8px;
+  font-size: .7rem;
 }
 
 li.event .event-title {
+  margin-bottom: 0;
+  line-height: 1.42857;
   font-size: 16.8px;
   font-size: 1.2rem;
-  line-height: 1.42857;
-  margin-bottom: 0;
 }
 
 li.event .event-title a {
@@ -402,18 +402,18 @@ li.event .event-title a {
 }
 
 li.event.Premieres .event-title::before {
-    margin-right: .5rem;
-    padding: 0 .2rem 0 .3rem;
-    font-size: .8rem;
-    line-height: 2.125;
-    font-weight: 400;
-    letter-spacing: .1rem;
-    color: $white;
-    background-color: $clara-blue;
-    opacity: .75;
-    display: inline-block;
-    border-radius: .2rem;
-    content: 'WP';
+  display: inline-block;
+  opacity: .75;
+  margin-right: .5rem;
+  border-radius: .2rem;
+  background-color: $clara-blue;
+  padding: 0 .2rem 0 .3rem;
+  line-height: 2.125;
+  letter-spacing: .1rem;
+  color: $white;
+  font-size: .8rem;
+  font-weight: 400;
+  content: 'WP';
 }
 
 li.event .event-time {
@@ -421,11 +421,11 @@ li.event .event-time {
 }
 
 #events-list .widget {
+  margin-bottom: 48px;
+  margin-bottom: 3.428571429rem;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
-  margin-bottom: 48px;
-  margin-bottom: 3.428571429rem;
   word-wrap: break-word;
 }
 
@@ -443,13 +443,13 @@ li.event .event-time {
 
 .contact-form input[type='text'],
 .contact-form input[type='email'] {
+  margin-bottom: 24px;
+  margin-bottom: 1.71428571rem;
+  padding: 1.5px;
+  padding: .107143rem;
   width: 80%;
   font-size: 14px;
   font-size: 1rem;
-  padding: 1.5px;
-  padding: .107143rem;
-  margin-bottom: 24px;
-  margin-bottom: 1.71428571rem;
 }
 
 .contact-form select {
@@ -459,16 +459,16 @@ li.event .event-time {
 
 .contact-form textarea {
   float: none;
-  height: 163px;
-  height: 11.6428571rem;
-  width: 80%;
-  font-size: 14px;
-  font-size: 1rem;
-  line-height: 1.71429;
-  padding: 1.5px;
-  padding: .107143rem;
   margin: 0 0 24px;
   margin: 0 0 1.71428571rem;
+  padding: 1.5px;
+  padding: .107143rem;
+  width: 80%;
+  height: 163px;
+  height: 11.6428571rem;
+  line-height: 1.71429;
+  font-size: 14px;
+  font-size: 1rem;
 }
 
 .contact-form input[type='radio'], .contact-form input[type='checkbox'] {
@@ -477,16 +477,16 @@ li.event .event-time {
 }
 
 .contact-form label {
-  float: none;
   display: block;
-  font-weight: 300;
+  float: none;
   text-transform: lowercase;
+  font-weight: 300;
 }
 
 .contact-form label.checkbox, .contact-form label.radio {
+  display: inline-block;
   float: none;
   font-weight: 300;
-  display: inline-block;
 }
 
 .contact-form label span {
@@ -500,13 +500,14 @@ li.event .event-time {
   background-image: linear-gradient(180deg, rgb(244, 244, 244), rgb(230, 230, 230));
   padding: 12.5px;
   padding: .89285714rem;
+  text-transform: lowercase;
+  line-height: 1.71429;
   font-size: 14px;
   font-size: 1rem;
-  line-height: 1.71429;
   font-weight: 300;
-  text-transform: lowercase;
+
   &:hover {
-      background-image: linear-gradient(180deg, rgb(249, 249, 249), rgb(235, 235, 235));
+    background-image: linear-gradient(180deg, rgb(249, 249, 249), rgb(235, 235, 235));
   }
 }
 
@@ -526,10 +527,10 @@ li.event .event-time {
 @media screen and (min-width: 465px) {
   // HEADER
   .site-header h1 {
-    font-size:   24px;
-    font-size:   1.71428571rem;
     line-height:  24px;
     line-height:  1;
+    font-size:   24px;
+    font-size:   1.71428571rem;
 }
   h1 span.site-description {
     display:  inline;
@@ -546,11 +547,11 @@ li.event .event-time {
 @media screen and (min-width: 450px) and (max-width: 649px) {
   .site-content,
   .widget-area {
+    margin-right: auto;
+    margin-left: auto;
     max-width: 456px;
     max-width: 30.4072704rem;
-    margin-left: auto;
-    margin-right: auto;
-}
+  }
 }
 
 // Minimum width of 650 pixels.
@@ -598,10 +599,10 @@ li.event .event-time {
 
   // HEADER
   .site-header h1 {
-    font-size:   32px;
-    font-size:   2.28571429rem;
     line-height:  48px;
     line-height:  1.5;
+    font-size:   32px;
+    font-size:   2.28571429rem;
   }
 
 
@@ -617,18 +618,18 @@ li.event .event-time {
   }
 
   .main-navigation li {
-    font-size: 1.2rem;
-    font-weight: 300;
     margin-right: 31.5px;
     margin-right: 2.25rem;
-    width: auto;
     padding: 0;
+    width: auto;
     line-height: 1.42857143;
+    font-size: 1.2rem;
+    font-weight: 300;
   }
 
   .main-navigation li a, .main-navigation li a:visited {
-    line-height: 1.42857143;
     text-transform: lowercase;
+    line-height: 1.42857143;
   }
 
   .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -636,25 +637,25 @@ li.event .event-time {
   }
 
   .main-navigation li.menu-has-sub-menu li a {
+    display: block;
+    border-bottom: 0;
     background: $menu-backgrounds;
     background: transparentize($menu-backgrounds, .1);
-    border-bottom: 0;
-    display: block;
-    font-size: 14px;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 2;
     padding: 0 12px;
     padding: 0 .71428571rem;
     width: 219px;
     width: 13rem;
+    line-height: 2;
     white-space: normal;
+    font-size: 14px;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   .main-navigation li ul li a:hover, .main-navigation li.current_page_item ul li a:hover {
-    color: $white;
     background: $clara-blue;
     background: transparentize($clara-blue, .05);
+    color: $white;
     font-weight: 300;
   }
 
