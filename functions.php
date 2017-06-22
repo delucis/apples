@@ -80,7 +80,7 @@ function add_fb_open_graph_tags() {
 			$thumbnail_object = get_post($thumbnail_id);
 			$image = $thumbnail_object->guid;
 		} else {
-			$image = 'http://claraiannotta.com/wp-content/uploads/2013/02/Clara_Iannotta-e1365368373758.png'; // Change this to the URL of the image you want beside your links shown on Facebook
+			$image = 'http://claraiannotta.com/wp-content/uploads/2016/10/14589704_1310364378983890_1314027836617419242_o.jpg'; // Change this to the URL of the image you want beside your links shown on Facebook
 		}
 		//$description = get_bloginfo('description');
 		$description = my_excerpt( $post->post_content, $post->post_excerpt );
