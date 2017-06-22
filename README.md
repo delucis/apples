@@ -8,9 +8,9 @@ Repository for WordPress theme development for <http://claraiannotta.com>.
 
 ### Set-up
 
-1. Use [`ci-wp-dev`](https://github.com/delucis/ci-wp-dev) to set up a development environment & bootstrap dependencies (including this theme repo).
+1. Use [`apples-wp-dev`](https://github.com/delucis/apples-wp-dev) to set up a development environment & bootstrap dependencies (including this theme repo).
 
-2. Once `ci-wp-dev` is up and running, `cd` to the theme directory:
+2. Once `apples-wp-dev` is up and running, `cd` to the theme directory:
 
     ```sh
     cd wordpress/wp-content/themes/apples
@@ -35,7 +35,7 @@ Repository for WordPress theme development for <http://claraiannotta.com>.
     npm run build
     ```
 
-That’s it! Using the `ci-wp-dev` environment, a fully functional WordPress install can be found at <http://claraiannotta.dev>. Log in as `admin` with password `vagrant`.
+That’s it! Using the `apples-wp-dev` environment, a fully functional WordPress install can be found at <http://claraiannotta.dev>. Log in as `admin` with password `vagrant`.
 
 Changes to any of the `php` files can be seen simply by refreshing your browser.
 
@@ -73,7 +73,7 @@ To change `css` styling, edit `scss/style.scss`, which will auto-compile if `npm
 
 ## Dependencies
 
-_These are automatically installed if you use the `ci-wp-dev` environment._
+_These are automatically installed if you use the `apples-wp-dev` environment._
 
 - [Twenty Twelve](https://wordpress.org/themes/twentytwelve/) WordPress theme
 
