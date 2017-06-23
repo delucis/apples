@@ -95,8 +95,6 @@ footer#colophon,
   font-weight: 300;
 }
 
-h1 { }
-
 a {
   text-decoration: none;
 }
@@ -232,13 +230,13 @@ aside.widget {
 
 // HEADER
 
-.site-header { }
-
-.site-header h1 {
-  text-transform: uppercase;
-  line-height:  1; // 24px
-  letter-spacing: .09em;
-  font-size:   1.71428571rem; // 24px
+.site-header {
+  h1 {
+    text-transform: uppercase;
+    line-height:  1; // 24px
+    letter-spacing: .09em;
+    font-size:   1.71428571rem; // 24px
+  }
 }
 
 h1.site-title a {
