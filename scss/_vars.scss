@@ -31,3 +31,9 @@ $bg-off-white: darken($white, 1%);
 $menu-backgrounds: darken($white, 6%);
 $text-color--light: darken($white, 33.5%);
 $text-color: darken($white, 73.5%);
+
+// Shadows
+@mixin frame-shadow {
+  box-shadow: 0 0 35px -25px $black;
+  -webkit-box-shadow: 0 0 35px -17.5px $black;
+}
