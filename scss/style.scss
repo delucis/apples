@@ -303,6 +303,13 @@ header {
     letter-spacing: .09em;
     font-size:   1.71428571rem; // 24px
 
+    a {
+      &,
+      &:hover {
+        color: $black;
+      }
+    }
+
     @include media-m {
       line-height:  1.5; // 48px
       font-size:   2.28571429rem; // 32px
