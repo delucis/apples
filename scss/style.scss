@@ -214,7 +214,7 @@ aside.widget {
   margin: 3.42857142rem 0 1.71429rem;
 }
 
-.entry-content p iframe[src*=soundcloud] {
+.entry-content p iframe[src*="soundcloud"] {
   margin-bottom: 0;
 }
 
@@ -406,7 +406,7 @@ li.event.Premieres .event-title::before {
   color: $white;
   font-size: .8rem;
   font-weight: 400;
-  content: 'WP';
+  content: "WP";
 }
 
 li.event .event-time {
@@ -425,7 +425,7 @@ li.event .event-time {
 
 // CONTACT FORM
 
-.textwidget input[type='text'],
+.textwidget input[type="text"],
 .textwidget textarea {
   width: 100% !important;
 }
@@ -434,8 +434,8 @@ li.event .event-time {
   clear: both;
 }
 
-.contact-form input[type='text'],
-.contact-form input[type='email'] {
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
   margin-bottom: 1.71428571rem; // 24px
   padding: .107143rem; // 1.5px
   width: 80%;
@@ -456,8 +456,8 @@ li.event .event-time {
   font-size: 1rem; // 14px
 }
 
-.contact-form input[type='radio'],
-.contact-form input[type='checkbox'] {
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
   float: none;
   margin-bottom: 23px;
 }
@@ -481,7 +481,7 @@ li.event .event-time {
   font-weight: 300;
 }
 
-.contact-form input[type='submit'],
+.contact-form input[type="submit"],
 .contact-form button {
   background: rgb(211, 211, 211);
   background-image: linear-gradient(180deg, rgb(244, 244, 244), rgb(230, 230, 230));
