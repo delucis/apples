@@ -127,7 +127,8 @@ body.custom-background-white .site {
   font-weight: 300;
 }
 
-.entry-content h3, .comment-content h3 {
+.entry-content h3,
+.comment-content h3 {
   line-height: 1.5;
 }
 
@@ -139,7 +140,11 @@ body.custom-background-white .site {
   border-bottom: 0;
 }
 
-embed, iframe, object, video, img {
+embed,
+iframe,
+object,
+video,
+img {
   box-shadow: 0 0 35px -25px $black;
   -webkit-box-shadow: 0 0 35px -17.5px $black;
 }
@@ -175,7 +180,11 @@ aside.widget {
   max-width: 100%;
 }
 
-.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+.archive-title,
+.page-title,
+.widget-title,
+.entry-content th,
+.comment-content th {
   margin-bottom: 0;
   text-transform: lowercase;
   line-height: 1.33333;
@@ -187,7 +196,8 @@ aside.widget {
   margin-top: 0;
 }
 
-.archive-header, .page-header {
+.archive-header,
+.page-header {
   border-bottom: 0;
   padding-bottom: 1.71429rem;
 }
@@ -417,7 +427,8 @@ li.event .event-time {
 
 // CONTACT FORM
 
-.textwidget input[type='text'], .textwidget textarea {
+.textwidget input[type='text'],
+.textwidget textarea {
   width: 100% !important;
 }
 
@@ -447,7 +458,8 @@ li.event .event-time {
   font-size: 1rem; // 14px
 }
 
-.contact-form input[type='radio'], .contact-form input[type='checkbox'] {
+.contact-form input[type='radio'],
+.contact-form input[type='checkbox'] {
   float: none;
   margin-bottom: 23px;
 }
@@ -459,7 +471,8 @@ li.event .event-time {
   font-weight: 300;
 }
 
-.contact-form label.checkbox, .contact-form label.radio {
+.contact-form label.checkbox,
+.contact-form label.radio {
   display: inline-block;
   float: none;
   font-weight: 300;
@@ -594,12 +607,14 @@ li.event .event-time {
     font-weight: 300;
   }
 
-  .main-navigation li a, .main-navigation li a:visited {
+  .main-navigation li a,
+  .main-navigation li a:visited {
     text-transform: lowercase;
     line-height: 1.42857143;
   }
 
-  .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+  .main-navigation ul.nav-menu,
+  .main-navigation div.nav-menu > ul {
     border: 0;
   }
 
@@ -615,7 +630,8 @@ li.event .event-time {
     font-weight: 300;
   }
 
-  .main-navigation li ul li a:hover, .main-navigation li.current_page_item ul li a:hover {
+  .main-navigation li ul li a:hover,
+  .main-navigation li.current_page_item ul li a:hover {
     background: transparentize($clara-blue, .05);
     color: $white;
     font-weight: 300;
