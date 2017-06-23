@@ -249,6 +249,16 @@ aside {
     }
   }
 
+  a {
+    &:visited {
+      color: $clara-blue;
+    }
+
+    &:hover {
+      color: $text-color;
+    }
+  }
+
   th {
     margin-bottom: 0;
     text-transform: lowercase;
