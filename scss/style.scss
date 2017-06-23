@@ -14,10 +14,10 @@ Version:        0.1.0
 $clara-blue: rgb(105, 191, 219);
 $black: rgb(0, 0, 0);
 $white: rgb(255, 255, 255);
-$bg-off-white: rgb(252, 252, 252);
-$menu-backgrounds: rgb(240, 240, 240);
-$text-color: rgb(68, 68, 68);
-$text-color--light: rgb(170, 170, 170);
+$bg-off-white: darken($white, 1%);
+$menu-backgrounds: darken($white, 6%);
+$text-color--light: darken($white, 33.5%);
+$text-color: darken($white, 73.5%);
 
 // GENERAL
 
