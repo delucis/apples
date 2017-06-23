@@ -373,29 +373,29 @@ h1 {
   }
 }
 
-ul {
-  &.toggled-on {
-    box-shadow: 0 0 24px transparentize($text-color, .9);
-
-    @include media-m {
-      box-shadow: none;
-    }
-  }
-
-  &.sub-menu {
-    display: none;
-  }
-}
-
 .main-navigation {
-  @include media-m {
-    margin: 0;
+  ul {
+    &.nav-menu {
+      &.toggled-on {
+        box-shadow: 0 0 24px transparentize($text-color, .9);
 
-    ul {
-      &.nav-menu {
+        @include media-m {
+          box-shadow: none;
+        }
+      }
+
+      @include media-m {
         border: 0;
       }
+
+      .sub-menu {
+        display: none;
+      }
     }
+  }
+
+  @include media-m {
+    margin: 0;
 
     div {
       &.nav-menu {
