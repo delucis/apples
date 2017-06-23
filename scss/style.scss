@@ -262,11 +262,11 @@ h3.menu-toggle {
   font-weight: 300;
 }
 
-h3.menu-toggle:after {
+h3.menu-toggle::after {
   content: " ▼";
 }
 
-h3.toggled-on:after {
+h3.toggled-on::after {
   content: " ▲";
 }
 
@@ -509,6 +509,7 @@ li.event .event-time {
     line-height:  1; // 24px
     font-size:   1.71428571rem; // 24px
   }
+
   h1 span.site-description {
     display:  inline;
   }
@@ -534,9 +535,9 @@ li.event .event-time {
 
 
   // STRUCTURE
-/*  .site {
-    max-width: 810px;
-    max-width: 54rem; }  */
+  // .site {
+  //   max-width: 54rem; // 810px
+  // }
 
   .site-content,
   .template-front-page .widget-area .widget:nth-child(2n),
