@@ -519,7 +519,6 @@ ul {
 // FOOTER
 
 footer {
-  &.entry-meta,
   &[role="contentinfo"] {
     margin-top: 0;
     border-top: 0;
@@ -527,6 +526,10 @@ footer {
     line-height: 2.4;
     color: $text-color--light;
     font-size: .71428583rem;
+  }
+
+  &.entry-meta {
+    color: $text-color--light;
   }
 }
 
