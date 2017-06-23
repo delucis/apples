@@ -593,10 +593,6 @@ li.event {
 
 @include media-s {
   // HEADER
-  .site-header h1 {
-    line-height:  1; // 24px
-    font-size:   1.71428571rem; // 24px
-  }
 
   h1 span.site-description {
     display:  inline;
