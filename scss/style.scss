@@ -46,6 +46,7 @@ $text-color: darken($white, 73.5%);
 // GENERAL
 
 body {
+  color: $text-color;
   font-family: "Lato", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 
   &.custom-background {
@@ -54,11 +55,6 @@ body {
       background-color: $bg-off-white;
     }
   }
-}
-
-// Primary body text colour
-body  {
-  color: $text-color;
 }
 
 // Primary link colour, e.g. green #6c2, grey #aaa, red #e00, clara’s blue #69BFDB, weak blue #1CA6D4
