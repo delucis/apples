@@ -332,22 +332,21 @@ h1 {
 
 // MOBILE MENU
 
-h3 {
-  &.menu-toggle {
-    border: 0;
-    border-radius: 0;
-    box-shadow: 0 0 24px transparentize($text-color, .9);
-    background-color: $white;
-    background-image: none;
-    padding: .785714rem; // 11px
-    text-transform: uppercase;
-    line-height: 1.71428571;
-    font-size: 1rem; // 14px
-    font-weight: 300;
+.menu-toggle {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 0 24px transparentize($text-color, .9);
+  background-color: $white;
+  background-image: none;
+  padding: .785714rem; // 11px
+  text-transform: uppercase;
+  line-height: 1.71428571;
+  color: $clara-blue;
+  font-size: 1rem; // 14px
+  font-weight: 300;
 
-    &::after {
-      content: " ▼";
-    }
+  &::after {
+    content: " ▼";
   }
 
   &.toggled-on {
@@ -355,17 +354,14 @@ h3 {
       content: " ▲";
     }
   }
-}
 
-.menu-toggle:hover {
-  background-color: $white;
-  background-image: none;
-}
-
-.menu-toggle.toggled-on {
-  box-shadow: none;
-  background-color: $white;
-  background-image: none;
+  &:hover,
+  &.toggled-on {
+    box-shadow: none;
+    background-color: $white;
+    background-image: none;
+    color: $text-color;
+  }
 }
 
 ul {
