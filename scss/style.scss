@@ -131,9 +131,11 @@ img {
   }
 }
 
-aside.widget {
-  line-height: 1.71429;
-  font-size: 1rem;
+aside {
+  &.widget {
+    line-height: 1.71429;
+    font-size: 1rem;
+  }
 }
 
 .widget-area {
@@ -306,12 +308,14 @@ h1 {
     }
   }
 
-  span.site-description {
-    display: none;
-    font-weight:  300;
+  span {
+    &.site-description {
+      display: none;
+      font-weight:  300;
 
-    @include media-s {
-      display: inline;
+      @include media-s {
+        display: inline;
+      }
     }
   }
 }
@@ -583,46 +587,48 @@ ul {
   }
 }
 
-li.event {
-  margin: 0 0 1.7148571rem; // 0 0 24px
+li {
+  &.event {
+    margin: 0 0 1.7148571rem; // 0 0 24px
 
-  .event-date {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    line-height: 2.4489795;
-    letter-spacing: .1rem; // 1.4px
-    font-size: .7rem; // 9.8px
-  }
-
-  .event-time {
-    padding-right: .8em;
-  }
-
-  .event-title {
-    margin-bottom: 0;
-    line-height: 1.42857;
-    font-size: 1.2rem; // 16.8px
-
-    a {
-      text-decoration: none;
+    .event-date {
+      margin-bottom: 0;
+      text-transform: uppercase;
+      line-height: 2.4489795;
+      letter-spacing: .1rem; // 1.4px
+      font-size: .7rem; // 9.8px
     }
-  }
 
-  &.Premieres {
+    .event-time {
+      padding-right: .8em;
+    }
+
     .event-title {
-      &::before {
-        display: inline-block;
-        opacity: .75;
-        margin-right: .5rem;
-        border-radius: .2rem;
-        background-color: $clara-blue;
-        padding: 0 .2rem 0 .3rem;
-        line-height: 2.125;
-        letter-spacing: .1rem;
-        color: $white;
-        font-size: .8rem;
-        font-weight: 400;
-        content: "WP";
+      margin-bottom: 0;
+      line-height: 1.42857;
+      font-size: 1.2rem; // 16.8px
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &.Premieres {
+      .event-title {
+        &::before {
+          display: inline-block;
+          opacity: .75;
+          margin-right: .5rem;
+          border-radius: .2rem;
+          background-color: $clara-blue;
+          padding: 0 .2rem 0 .3rem;
+          line-height: 2.125;
+          letter-spacing: .1rem;
+          color: $white;
+          font-size: .8rem;
+          font-weight: 400;
+          content: "WP";
+        }
       }
     }
   }
