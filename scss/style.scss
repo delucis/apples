@@ -110,7 +110,7 @@ iframe,
 object,
 video,
 img {
-  box-shadow: 0 0 35px -25px $black;
+  @include frame-shadow;
 }
 
 img {
@@ -126,8 +126,8 @@ img {
 
   &.entry-thumb,
   &.entry-sidebar-ftrd-img {
+    @include frame-shadow;
     border-radius: 0;
-    box-shadow: 0 0 35px -25px $black;
   }
 }
 
