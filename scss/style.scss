@@ -118,14 +118,12 @@ strong {
 
 body.custom-background-empty .site,
 body.custom-background-white .site {
-  padding: 0 42.5px;
-  padding: 0 3.03571rem;
+  padding: 0 3.03571rem; // 0 42.5px
 }
 
 .entry-header .entry-title {
   line-height: 1.09091;
-  font-size: 22px;
-  font-size: 1.57143rem;
+  font-size: 1.57143rem; // 22px
   font-weight: 300;
 }
 
@@ -200,8 +198,7 @@ aside.widget {
 }
 
 .site-content article {
-  margin-bottom: 24px;
-  margin-bottom: 1.71429rem;
+  margin-bottom: 1.71429rem; // 24px
   border-bottom: 0;
 }
 
@@ -217,10 +214,8 @@ aside.widget {
   margin-bottom: 0;
   text-transform: uppercase;
   line-height: 2.4489795;
-  letter-spacing: 1.4px;
-  letter-spacing: .1rem;
-  font-size: 9.8px;
-  font-size: .7rem;
+  letter-spacing: .1rem; // 1.4px
+  font-size: .7rem; // 9.8px
 }
 
 
@@ -231,11 +226,9 @@ aside.widget {
 
 .site-header h1 {
   text-transform: uppercase;
-  line-height:  24px;
-  line-height:  1;
+  line-height:  1; // 24px
   letter-spacing: .09em;
-  font-size:   24px;
-  font-size:   1.71428571rem;
+  font-size:   1.71428571rem; // 24px
 }
 
 h1.site-title a {
@@ -258,12 +251,10 @@ h3.menu-toggle {
   box-shadow: 0 0 24px rgba(64, 64, 64, .1);
   background-color: $white;
   background-image: none;
-  padding: 11px;
-  padding: .785714rem;
+  padding: .785714rem; // 11px
   text-transform: uppercase;
   line-height: 1.71428571;
-  font-size: 14px;
-  font-size: 1rem;
+  font-size: 1rem; // 14px
   font-weight: 300;
 }
 
@@ -361,8 +352,7 @@ h3.page-list-ext-title a {
 }
 
 .page-list-ext .page-list-ext-item {
-  margin: 0 0 24px;
-  margin: 0 0 1.71428571rem;
+  margin: 0 0 1.71428571rem; // 0 0 24px
 }
 
 
@@ -370,31 +360,26 @@ h3.page-list-ext-title a {
 // EVENTS WIDGET FORMATTING
 
 ul.event-list {
-  margin: 0 0 24px;
-  margin: 0 0 1.7148571rem;
+  margin: 0 0 1.7148571rem; // 0 0 24px
   list-style: none;
 }
 
 li.event {
-  margin: 0 0 24px;
-  margin: 0 0 1.7148571rem;
+  margin: 0 0 1.7148571rem; // 0 0 24px
 }
 
 li.event .event-date {
   margin-bottom: 0;
   text-transform: uppercase;
   line-height: 2.4489795;
-  letter-spacing: 1.4px;
-  letter-spacing: .1rem;
-  font-size: 9.8px;
-  font-size: .7rem;
+  letter-spacing: .1rem; // 1.4px
+  font-size: .7rem; // 9.8px
 }
 
 li.event .event-title {
   margin-bottom: 0;
   line-height: 1.42857;
-  font-size: 16.8px;
-  font-size: 1.2rem;
+  font-size: 1.2rem; // 16.8px
 }
 
 li.event .event-title a {
@@ -421,8 +406,7 @@ li.event .event-time {
 }
 
 #events-list .widget {
-  margin-bottom: 48px;
-  margin-bottom: 3.428571429rem;
+  margin-bottom: 3.428571429rem; // 48px
   -webkit-hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
@@ -443,32 +427,24 @@ li.event .event-time {
 
 .contact-form input[type='text'],
 .contact-form input[type='email'] {
-  margin-bottom: 24px;
-  margin-bottom: 1.71428571rem;
-  padding: 1.5px;
-  padding: .107143rem;
+  margin-bottom: 1.71428571rem; // 24px
+  padding: .107143rem; // 1.5px
   width: 80%;
-  font-size: 14px;
-  font-size: 1rem;
+  font-size: 1rem; // 14px
 }
 
 .contact-form select {
-  margin-bottom: 24px;
-  margin-bottom: 1.71428571rem;
+  margin-bottom: 1.71428571rem; // 24px
 }
 
 .contact-form textarea {
   float: none;
-  margin: 0 0 24px;
-  margin: 0 0 1.71428571rem;
-  padding: 1.5px;
-  padding: .107143rem;
+  margin: 0 0 1.71428571rem; // 0 0 24px
+  padding: .107143rem; // 1.5px
   width: 80%;
-  height: 163px;
-  height: 11.6428571rem;
+  height: 11.6428571rem; // 163px
   line-height: 1.71429;
-  font-size: 14px;
-  font-size: 1rem;
+  font-size: 1rem; // 14px
 }
 
 .contact-form input[type='radio'], .contact-form input[type='checkbox'] {
@@ -498,12 +474,10 @@ li.event .event-time {
 .contact-form button {
   background: rgb(211, 211, 211);
   background-image: linear-gradient(180deg, rgb(244, 244, 244), rgb(230, 230, 230));
-  padding: 12.5px;
-  padding: .89285714rem;
+  padding: .89285714rem; // 12.5px
   text-transform: lowercase;
   line-height: 1.71429;
-  font-size: 14px;
-  font-size: 1rem;
+  font-size: 1rem; // 14px
   font-weight: 300;
 
   &:hover {
@@ -527,21 +501,18 @@ li.event .event-time {
 @media screen and (min-width: 465px) {
   // HEADER
   .site-header h1 {
-    line-height:  24px;
-    line-height:  1;
-    font-size:   24px;
-    font-size:   1.71428571rem;
-}
+    line-height:  1; // 24px
+    font-size:   1.71428571rem; // 24px
+  }
   h1 span.site-description {
     display:  inline;
-}
+  }
 
   // ENTRY IMAGES
   img.entry-thumb {
     float: right;
-    margin-left: 18px;
-    margin-left: 1.28571429rem;
-}
+    margin-left: 1.28571429rem; // 18px
+  }
 }
 
 @media screen and (min-width: 450px) and (max-width: 649px) {
@@ -549,8 +520,7 @@ li.event .event-time {
   .widget-area {
     margin-right: auto;
     margin-left: auto;
-    max-width: 456px;
-    max-width: 30.4072704rem;
+    max-width: 30.4072704rem; // 456px
   }
 }
 
@@ -599,10 +569,8 @@ li.event .event-time {
 
   // HEADER
   .site-header h1 {
-    line-height:  48px;
-    line-height:  1.5;
-    font-size:   32px;
-    font-size:   2.28571429rem;
+    line-height:  1.5; // 48px
+    font-size:   2.28571429rem; // 32px
   }
 
 
@@ -618,8 +586,7 @@ li.event .event-time {
   }
 
   .main-navigation li {
-    margin-right: 31.5px;
-    margin-right: 2.25rem;
+    margin-right: 2.25rem; // 31.5px
     padding: 0;
     width: auto;
     line-height: 1.42857143;
@@ -639,21 +606,16 @@ li.event .event-time {
   .main-navigation li.menu-has-sub-menu li a {
     display: block;
     border-bottom: 0;
-    background: $menu-backgrounds;
     background: transparentize($menu-backgrounds, .1);
-    padding: 0 12px;
-    padding: 0 .71428571rem;
-    width: 219px;
-    width: 13rem;
+    padding: 0 .71428571rem; // 0 12px
+    width: 13rem; // 219px
     line-height: 2;
     white-space: normal;
-    font-size: 14px;
-    font-size: 1rem;
+    font-size: 1rem; // 14px
     font-weight: 300;
   }
 
   .main-navigation li ul li a:hover, .main-navigation li.current_page_item ul li a:hover {
-    background: $clara-blue;
     background: transparentize($clara-blue, .05);
     color: $white;
     font-weight: 300;
@@ -665,7 +627,6 @@ li.event .event-time {
   }
 
   li.menu-has-sub-menu:hover a {
-    background: $menu-backgrounds;
     background: transparentize($menu-backgrounds, .1);
   }
 
