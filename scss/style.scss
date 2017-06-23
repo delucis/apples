@@ -11,6 +11,24 @@ Version:        0.1.0
 @import url("../twentytwelve/style.css");
 
 // VARS
+// MEDIA QUERIES
+$bp-s: 465px;
+$bp-m: 600px; // inherited from Twenty Twelve
+$bp-l: 960px; // inherited from Twenty Twelve
+
+@mixin media-s {
+  @media (min-width: #{$bp-s}) and (max-width: #{$bp-m - 1px}) {
+    @content;
+  }
+}
+
+@mixin media-m {
+  @media (min-width: #{$bp-m}) {
+    @content;
+  }
+}
+
+// COLORS
 $clara-blue: rgb(105, 191, 219);
 $black: rgb(0, 0, 0);
 $white: rgb(255, 255, 255);
