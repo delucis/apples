@@ -545,42 +545,21 @@ footer {
 
 // WORKS LISTS
 
-ul {
-  &.main-works-list {
-    li {
-      margin: 0 0 24px;
-      list-style: none outside none;
-      text-transform: lowercase;
-      line-height: 1.2;
-      font-size: 1.42857rem;
-
-      a {
-        text-decoration: none;
-      }
-
-      ul {
-        li {
-          margin: 0 0 0 2.57143rem;
-          list-style: none outside none;
-          text-transform: none;
-          line-height: 1.71428571;
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-}
-
-h3 {
-  &.page-list-ext-title {
-    margin: 0;
+.main-works-list {
+  .page_item {
+    margin: 0 0 24px;
+    list-style: none outside none;
     text-transform: lowercase;
     line-height: 1.2;
     font-size: 1.42857rem;
-    font-weight: 300;
+  }
 
-    a {
-      text-decoration: none;
+  .children {
+    .page_item {
+      margin: 0 0 0 2.57143rem;
+      text-transform: none;
+      line-height: 1.71428571;
+      font-size: 1rem;
     }
   }
 }
@@ -588,6 +567,14 @@ h3 {
 .page-list-ext {
   .page-list-ext-item {
     margin: 0 0 1.71428571rem; // 0 0 24px
+  }
+
+  .page-list-ext-title {
+    margin: 0;
+    text-transform: lowercase;
+    line-height: 1.2;
+    font-size: 1.42857rem;
+    font-weight: 300;
   }
 }
 
