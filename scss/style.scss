@@ -482,8 +482,13 @@ aside {
 
       &.menu-has-sub-menu {
         &:hover {
-          a {
+          > a {
             background: transparentize($menu-backgrounds, .1);
+
+            &:hover {
+              background: transparentize($clara-blue, .05);
+              color: $white;
+            }
           }
         }
 
