@@ -55,17 +55,6 @@ a {
   }
 }
 
-.comments-link {
-  a {
-    color: $text-color--light;
-
-    &:hover {
-      border-bottom: 1px solid $clara-blue;
-      color: $text-color;
-    }
-  }
-}
-
 * {
   font-weight: 300;
 }
@@ -77,33 +66,6 @@ strong {
 ::selection {
   background: $clara-blue;
   color: $white;
-}
-
-.site {
-  background-color: transparent;
-  overflow: visible;
-}
-
-.entry-header {
-  .entry-title {
-    line-height: 1.09091;
-    font-size: 1.57143rem; // 22px
-    font-weight: 300;
-  }
-}
-
-.comment-content {
-  h3 {
-    line-height: 1.5;
-  }
-
-  th {
-    margin-bottom: 0;
-    text-transform: lowercase;
-    line-height: 1.33333;
-    font-size: 1.28571rem;
-    font-weight: 300;
-  }
 }
 
 embed,
@@ -136,6 +98,116 @@ aside {
   &.widget {
     line-height: 1.71429;
     font-size: 1rem;
+  }
+}
+
+.site {
+  background-color: transparent;
+  overflow: visible;
+}
+
+.site-content {
+  margin-right: auto;
+  margin-left: auto;
+
+  article {
+    margin-bottom: 1.71429rem; // 24px
+    border-bottom: 0;
+  }
+
+  @include media-s-only {
+    max-width: 30.4072704rem; // 456px
+  }
+
+  @include media-m {
+    width: 56.30976373%;
+  }
+}
+
+.entry-content {
+  h2 {
+    margin: 3.42857142rem 0 1.71429rem;
+  }
+
+  h3 {
+    line-height: 1.5;
+  }
+
+  p {
+    iframe {
+      &[src*="soundcloud"] {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  a {
+    &:visited {
+      color: $clara-blue;
+    }
+
+    &:hover {
+      color: $text-color;
+    }
+  }
+
+  th {
+    margin-bottom: 0;
+    text-transform: lowercase;
+    line-height: 1.33333;
+    font-size: 1.28571rem;
+    font-weight: 300;
+  }
+}
+
+.entry-header {
+  .entry-title {
+    line-height: 1.09091;
+    font-size: 1.57143rem; // 22px
+    font-weight: 300;
+  }
+}
+
+.entry-meta {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 2.4489795;
+  letter-spacing: .1rem; // 1.4px
+  font-size: .7rem; // 9.8px
+
+  a {
+    text-decoration: underline;
+    color: $text-color--light;
+
+    &:hover {
+      border-bottom: 0;
+      color: $text-color;
+    }
+  }
+}
+
+.comment-content {
+  h3 {
+    line-height: 1.5;
+  }
+
+  th {
+    margin-bottom: 0;
+    text-transform: lowercase;
+    line-height: 1.33333;
+    font-size: 1.28571rem;
+    font-weight: 300;
+  }
+}
+
+.comments-link {
+  a {
+    color: $text-color--light;
+
+    &:hover {
+      border-bottom: 1px solid $clara-blue;
+      color: $text-color;
+    }
   }
 }
 
@@ -214,79 +286,6 @@ aside {
   border-bottom: 0;
   padding-bottom: 1.71429rem;
 }
-
-.site-content {
-  margin-right: auto;
-  margin-left: auto;
-
-  article {
-    margin-bottom: 1.71429rem; // 24px
-    border-bottom: 0;
-  }
-
-  @include media-s-only {
-    max-width: 30.4072704rem; // 456px
-  }
-
-  @include media-m {
-    width: 56.30976373%;
-  }
-}
-
-.entry-content {
-  h2 {
-    margin: 3.42857142rem 0 1.71429rem;
-  }
-
-  h3 {
-    line-height: 1.5;
-  }
-
-  p {
-    iframe {
-      &[src*="soundcloud"] {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  a {
-    &:visited {
-      color: $clara-blue;
-    }
-
-    &:hover {
-      color: $text-color;
-    }
-  }
-
-  th {
-    margin-bottom: 0;
-    text-transform: lowercase;
-    line-height: 1.33333;
-    font-size: 1.28571rem;
-    font-weight: 300;
-  }
-}
-
-.entry-meta {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  line-height: 2.4489795;
-  letter-spacing: .1rem; // 1.4px
-  font-size: .7rem; // 9.8px
-
-  a {
-    text-decoration: underline;
-    color: $text-color--light;
-
-    &:hover {
-      border-bottom: 0;
-      color: $text-color;
-    }
-  }
-}
-
 
 
 // HEADER
