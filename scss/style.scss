@@ -311,14 +311,14 @@ aside {
       font-size:   2.28571429rem; // 32px
     }
   }
-}
 
-.site-description {
-  display: none;
-  font-weight:  300;
+  @at-root .site-description {
+    display: none;
+    font-weight:  300;
 
-  @include media-s {
-    display: inline;
+    @include media-s {
+      display: inline;
+    }
   }
 }
 
