@@ -375,6 +375,10 @@ aside {
 
       .sub-menu {
         display: none;
+
+        @include media-m {
+          display: block;
+        }
       }
     }
   }
