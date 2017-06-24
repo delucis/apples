@@ -291,7 +291,7 @@ aside {
 // HEADER
 
 .site-header {
-  h1 {
+  .site-title {
     text-transform: uppercase;
     line-height:  1; // 24px
     letter-spacing: .09em;
@@ -300,7 +300,9 @@ aside {
     a {
       &,
       &:hover {
+        border-bottom: 0;
         color: $black;
+        font-weight: 900;
       }
     }
 
@@ -311,23 +313,12 @@ aside {
   }
 }
 
-h1 {
-  &.site-title {
-    a {
-      border-bottom: 0;
-      font-weight: 900;
-    }
-  }
+.site-description {
+  display: none;
+  font-weight:  300;
 
-  span {
-    &.site-description {
-      display: none;
-      font-weight:  300;
-
-      @include media-s {
-        display: inline;
-      }
-    }
+  @include media-s {
+    display: inline;
   }
 }
 
