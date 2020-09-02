@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/delucis/apples#readme",
   "devDependencies": {
-    "bestzip": "^1.1.4",
+    "bestzip": "^2.1.7",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
     "node-sass": "^4.5.3",
     "rimraf": "^2.6.1"
